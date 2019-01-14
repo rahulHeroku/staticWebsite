@@ -1,0 +1,70 @@
+.header {
+  padding: 1px;
+  text-align: center;
+  background: #8bc0f7;
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 10px;
+}
+
+
+
+.logo
+{
+	    position: relative;
+    font-weight: bold;
+    font-size: 2.3em;
+    bottom: 10px;
+
+}
+
+.header> div:first-child
+{
+	position: relative;
+	left: 25%;
+	font-size: 12px;
+}
+
+.header> div > p > span
+{
+	
+	color: black;
+}
+
+
+.navbar
+{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.navbar a
+{
+	 color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+header
+{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #87cefa;
+color: white;
+font-size: 12px;
+font-weight: bold;
+}
+
+.contact
+{
+
+}
+
+.branding
+{
+
+}
