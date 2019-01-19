@@ -1,4 +1,79 @@
 *
 {
 	box-sizing: border-box;
+	max-width: 100%;
+	overflow-x: hidden;
+	 font-family: sans-serif;
+}
+
+.absoluteDiv
+{
+	position: absolute;
+	left: 15%;
+	bottom: 50%;
+	z-index: 10;
+	font-weight: bold;
+	background-color: white;
+	opacity: 0.75;
+	padding: 1%;
+}
+
+.contentDiv
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 0.9em;
+}
+
+.firstDiv
+{
+font-weight: bold;
+	background-color: orange;
+	opacity: 0.75;
+	padding: 1%;
+	flex: 1;
+	margin-right: 30%;
+	border-radius: 4px;
+}
+
+.secondDiv
+{
+	font-weight: bold;
+	background-color: black;
+	opacity: 0.75;
+	color:white;
+	padding: 0.5%;
+	flex: 1;
+	margin-right: 30%;
+	border-radius: 4px;
+}
+
+
+.thirdDiv
+{
+	font-weight: bold;
+	background-color: orange;
+	opacity: 0.75;
+	padding: 1%;
+	border-radius: 4px;
+	display: flex;
+	flex:0.5;
+	width: 60%;
+}
+
+.innerFlex1
+{
+display: flex;
+flex-direction: column;
+flex:1.25;
+
+}
+
+.innerFlex2
+{
+	display: flex;
+	flex-direction: column;
+	flex: .75;
 }
