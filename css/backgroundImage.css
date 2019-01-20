@@ -1,7 +1,12 @@
 .bgImage
 {
 	position: relative;
-    bottom: 4px;
+
+}
+.bgImage img:nth-child(2)
+{
+	position: relative;
+	bottom: 4px;
 }
 
 .bgDiv
@@ -9,7 +14,7 @@
 	width: 100%;
     position: relative;
     bottom: 9px;
-    height: 381px;
+    height: 1367px;
     background-image: linear-gradient(to right, rgb(141, 181, 214), rgb(142, 181, 214));
     font-weight: bold;
 }
